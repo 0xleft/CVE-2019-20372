@@ -1,0 +1,1 @@
+cd server && docker build -t vuln-server . && docker run --rm -p 80:80 vuln-server
